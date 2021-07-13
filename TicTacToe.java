@@ -21,7 +21,7 @@ public class TicTacToe {
            System.out.println();}
 }
 
-//Creating a function named Placement() which places the symbol(O or X) on the desired position of game board and also switch between user and CPU turn
+//Creating a function named Placement() which places the symbol(O or X) on the desired position of game board and also switch between user and CPU turns
        public static void Placement(char [][] gameBoard,int pos,String user)
 {
     //switching between user and CPU turns and also adding the occupied places of board to the ArrayList to help identify the winner       
