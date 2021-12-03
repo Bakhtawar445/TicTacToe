@@ -106,7 +106,7 @@ if(playerPositions.containsAll(l)){
 else if(cpuPositions.containsAll(l)){
   try {
      String a="Sorry!! CPU Won...";
-      FileWriter myWriter = new FileWriter("filename.txt");
+      FileWriter myWriter = new FileWriter("results.txt");
       myWriter.write(a);
       myWriter.close();
       return "Successfully wrote results to the file named:results.txt";
@@ -117,7 +117,7 @@ else if(cpuPositions.containsAll(l)){
 else if(playerPositions.size()+cpuPositions.size()==9){
   try {
      String a="A tie...";
-      FileWriter myWriter = new FileWriter("filename.txt");
+      FileWriter myWriter = new FileWriter("results.txt");
       myWriter.write(a);
       myWriter.close();
       return "Successfully wrote results to the file named:results.txt";
